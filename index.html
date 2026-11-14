@@ -3,9 +3,23 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
-<meta name="description" content="Bursa kombi servisi. Tüm markalar için arıza onarımı, yıllık bakım ve petek temizliği.">
+<meta name="description" content="Sağlam Usta Kombi Servis: Bursa'da evinize gelerek tüm marka kombilerin arıza tespiti, tamiri, yıllık bakımı ve petek temizliği. Osmangazi, Nilüfer, Yıldırım, Mudanya ve çevresi. 0533 761 16 44">
 <style>:root{padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}body{margin:0}img{max-width:100%}[hidden]{display:none!important}</style>
-<title>Sağlam Usta Kombi Servis</title>
+<title>Sağlam Usta Kombi Servis | Bursa Kombi Tamiri ve Bakımı</title>
+<script>if(location.hostname.indexOf("semihgecim")>-1){location.replace("https://saglamustakombi.com.tr/")}</script>
+<link rel="canonical" href="https://saglamustakombi.com.tr/">
+<meta name="robots" content="index,follow">
+<meta property="og:type" content="website">
+<meta property="og:locale" content="tr_TR">
+<meta property="og:title" content="Sağlam Usta Kombi Servis | Bursa">
+<meta property="og:description" content="Kışın içiniz rahat olsun. Kombiniz emin ellerde. Bursa'da tüm marka kombilere arıza ve bakım.">
+<meta property="og:url" content="https://saglamustakombi.com.tr/">
+<script type="application/ld+json">
+{"@context":"https://schema.org","@type":"HVACBusiness","name":"Sağlam Usta Kombi Servis","url":"https://saglamustakombi.com.tr/","telephone":"+905337611644","priceRange":"₺₺",
+"address":{"@type":"PostalAddress","addressLocality":"Bursa","addressCountry":"TR"},
+"areaServed":[{"@type":"City","name":"Osmangazi, Bursa"},{"@type":"City","name":"Nilüfer, Bursa"},{"@type":"City","name":"Yıldırım, Bursa"},{"@type":"City","name":"Gürsu, Bursa"},{"@type":"City","name":"Kestel, Bursa"},{"@type":"City","name":"Mudanya, Bursa"},{"@type":"City","name":"Gemlik, Bursa"},{"@type":"City","name":"İnegöl, Bursa"}],
+"description":"Bursa'da tüm marka kombiler için yerinde arıza tespiti, tamir, yıllık bakım ve petek temizliği. Özel servis; marka yetkili servisi değildir."}
+</script>
 <meta name="claude:viewport-fit-sides" content="cover">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -110,7 +124,7 @@ input[type=text],select{width:100%;border:1.5px solid var(--line);border-radius:
 .svc{border:1px solid var(--line);border-radius:14px;padding:20px;display:grid;gap:6px;background:var(--surface)}
 
 .areas{display:flex;flex-wrap:wrap;gap:8px;margin-top:16px}
-.areas span{font-family:var(--f-mono);font-size:.85rem;border:1px dashed var(--muted);border-radius:6px;padding:5px 10px}
+.areas span{font-family:var(--f-mono);font-size:.85rem;border:1px solid var(--line);border-radius:6px;padding:5px 10px}
 
 details{border-bottom:1px solid var(--line);padding-block:16px}
 details summary{cursor:pointer;font-weight:600;font-size:1.05rem;list-style:none;display:flex;justify-content:space-between;gap:16px}
@@ -173,12 +187,6 @@ footer .wrap{padding-block:28px;display:flex;flex-wrap:wrap;gap:16px;justify-con
 </head>
 <body>
 
-<div class="draft" id="draft">
-  <div class="wrap">
-    <span>TASLAK · Kesik çizgili alanlar ustanın onayını bekliyor.</span>
-    <button type="button" id="draftClose">Kapat</button>
-  </div>
-</div>
 
 <header>
   <div class="wrap">
@@ -390,7 +398,6 @@ footer .wrap{padding-block:28px;display:flex;flex-wrap:wrap;gap:16px;justify-con
   var DISTRICTS = ["Osmangazi","Nilüfer","Yıldırım","Gürsu","Kestel","Mudanya","Gemlik","İnegöl"];
 
   // ---- draft bar ----
-  document.getElementById("draftClose").onclick=function(){document.getElementById("draft").hidden=true};
 
   // ---- gauge ----
   var cx=120, cy=125, r=92, NS="http://www.w3.org/2000/svg";

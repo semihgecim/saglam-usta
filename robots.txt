@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://saglamustakombi.com.tr/sitemap.xml
